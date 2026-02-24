@@ -3,7 +3,7 @@
 # 🤖 Projeto Débora  
 ### Assistente Virtual de Comunicação via WhatsApp
 
-Automação • n8n • WhatsApp Cloud API • Python • Excel • Templates com Mídia
+Automação de Comunicação • n8n • WhatsApp Cloud API • Python • Excel • Templates com Mídia
 
 <br>
 
@@ -227,7 +227,7 @@ Se a FOTO estiver definida:
 1. O script envia a imagem para o workflow PostImagem
 2. Obtém media_id
 3. Reutiliza o mesmo media_id para todos os envios
-> so evita upload repetido e melhora performance.
+> Isso evita upload repetido e melhora performance.
 
 ---
 
@@ -256,7 +256,7 @@ python carga.py
 ## 📊 Relatório Gerado
 
 Arquivo:
-```bash
+```text
 relatorio_input_waid_mensageria.xlsx
 ```
 
@@ -336,6 +336,7 @@ Para grandes volumes:
 
 ---
 
-## 📚  Licença
+## 📚 Licença
 
-Uso livre para fins de estudo e automação interna.
+Este projeto é disponibilizado para fins de estudo, aprendizado e automação interna.
+O uso comercial não é permitido sem autorização prévia.
