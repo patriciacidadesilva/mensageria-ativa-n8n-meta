@@ -336,6 +336,6 @@ Para grandes volumes:
 
 ---
 
-##📄 Licença
+## 📚  Licença
 
 Uso livre para fins de estudo e automação interna.
