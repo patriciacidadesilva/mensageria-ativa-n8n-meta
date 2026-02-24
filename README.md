@@ -35,6 +35,7 @@ Este repositório contém:
 Excel → carga.py → Webhook n8n → WhatsApp Cloud API → Destinatário
                                  ↓
                            Relatório de envio
+```
 
 ---
 
