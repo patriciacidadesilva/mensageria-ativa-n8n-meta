@@ -153,7 +153,6 @@ DELAY_ENTRE_REQUESTS=0.5
 ### 1️⃣ Upload de Mídia
 
 **Workflow n8n:** `PostImagem_EXEMPLO`
-  PostImagem_EXEMPLO
 - Recebe imagem via Webhook
 - Realiza upload para a WhatsApp Cloud API
 - Retorna media_id
@@ -224,11 +223,11 @@ A função normalizar_telefone():
 
 ## 🖼 Upload de Imagem (Opcional)
 
-Se FOTO estiver definida:
+Se a FOTO estiver definida:
 1. O script envia a imagem para o workflow PostImagem
 2. Obtém media_id
 3. Reutiliza o mesmo media_id para todos os envios
-Isso evita upload repetido e melhora performance.
+> so evita upload repetido e melhora performance.
 
 ---
 
@@ -309,11 +308,11 @@ Recebe:
 
 ## 🔒 Segurança
 
-✔️ Tokens não versionados
-✔️ `.env` ignorado pelo Git
-✔️ Workflows de exemplo sem credenciais reais
-✔️ Validação de variáveis obrigatórias
-✔️ Bloqueio para uso de webhook-test em lote
+- ✔️ Tokens não versionados
+- ✔️ `.env` ignorado pelo Git
+- ✔️ Workflows de exemplo sem credenciais reais
+- ✔️ Validação de variáveis obrigatórias
+- ✔️ Bloqueio para uso de webhook-test em lote
 
 ---
 
@@ -334,3 +333,9 @@ Para grandes volumes:
 - Implementar fila assíncrona
 - Executar via scheduler (ex: Airflow / CRON)
 - Logar envios em banco de dados
+
+---
+
+##📄 Licença
+
+Uso livre para fins de estudo e automação interna.
