@@ -1,0 +1,66 @@
+# =========
+# Python
+# =========
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========
+# VS Code / OS
+# =========
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========
+# Env / Secrets
+# =========
+.env
+.env.*
+!.env.example
+
+# =========
+# Dados locais / outputs
+# =========
+*.xlsx
+*.csv
+*.log
+
+
+# =========
+# Imagens/arquivos
+# =========
+imagem_dexia.png
+*dexia*.png
+*dexia*.jpg
+*dexia*.jpeg
+*dexia*.webp
+contatos_comercial.xlsx
+*.xlsx
+
+
+# =========
+# n8n workflows
+# =========
+*MensageriaAtivaWA*.json
+*PostImagem*.json
+
+
+# Permitir apenas exemplo
+!samples/contatos_comercial_exemplo.xlsx
+!workflows_n8n/MensageriaAtivaWA_exemplo.json
+!workflows_n8n/PostImagem_exemplo.json
